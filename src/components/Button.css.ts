@@ -1,4 +1,6 @@
 import { recipe, RecipeVariants } from '@vanilla-extract/recipes';
+import { calc } from '@vanilla-extract/css-utils';
+
 import { vars } from '../style/themes/themeContract.css';
 
 
@@ -25,6 +27,9 @@ export const buttonStyle = recipe({
       },
       large: {
         padding: vars.padding.large,
+      },
+      extraLarge: {
+        padding: calc(vars.padding.large).multiply(2).toString(),
       }
     },
     width: {

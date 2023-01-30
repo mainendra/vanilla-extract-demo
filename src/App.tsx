@@ -19,6 +19,7 @@ function App() {
         </Button>
         <Button>Blue button</Button>
         <Button theme="red" width="full">Red button</Button>
+        <Button padding="extraLarge">XL button</Button>
     </div>
   );
 }
