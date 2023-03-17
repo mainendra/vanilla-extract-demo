@@ -16,6 +16,11 @@ export const buttonStyle = recipe({
     justifyContent: 'center',
     gap: 5,
     margin: 10,
+    cursor: 'pointer',
+    ':hover': {
+      backgroundColor: vars.color.buttonHover,
+      borderColor: vars.color.buttonHover,
+    },
   },
   variants :{
     padding: {

@@ -3,7 +3,8 @@ import { vars } from "./themeContract.css";
 
 export const blueTheme = createTheme(vars, {
   color: {
-    brand: 'blue'
+    brand: 'blue',
+    buttonHover: 'green',
   },
   font: {
     body: 'arial',
